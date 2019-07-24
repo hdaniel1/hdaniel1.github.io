@@ -74,6 +74,11 @@ footer {
 }
 
 /* form stuff*/
+
+form {
+    max-width:515px;
+}
+
 #contact-form {
     margin-left:40%;
     height:375px;
@@ -86,15 +91,15 @@ textarea {
 }
 
 #form-message {
-    margin-left:3%
+    margin-left:2%
 }
 
 .button-wrap {
-    margin-left:35%;
+    text-align:right;
 }
 
 #submit-button {
-    border-radius:15%;
+    width:40%;
 }
 
 /*Portfolio*/
