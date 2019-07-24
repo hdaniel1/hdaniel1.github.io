@@ -55,9 +55,20 @@
               <p id="form-message"><i><u>Feel free to reach out with any questions, project ideas, or feedback!</u></i></p>
           </div>
           <form method="POST" action="https://formspree.io/hallada.daniel@gmail.com">
-            <input type="email" name="email" placeholder="Your email">
-            <textarea name="message" placeholder="Test Message"></textarea>
-            <button type="submit">Send Test</button>
+            <div class="contact-info-group">
+                <label><span><u><b>Name:</b></u></span>
+                  <input type="text" name="name" placeholder="Name">
+                </label> 
+                <label><span><u><b>E-mail:</b></u></span>
+                  <input type="email" name="_replyto" placeholder="E-mail">
+                </label>
+              </div>
+              <label><span><u><b>Message:</b></u></span>
+                <textarea name="message" id="" cols="70" rows="5" placeholder="Message"></textarea>
+              </label>
+              <div class="button-wrap">
+                  <input type="submit" value="Send" id="submit-button">
+              </div>
           </form>
           <!-- <form formaction="https://formspree.io/hallada.daniel@gmail.com" method="POST">
               <div class="contact-info-group">
