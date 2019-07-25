@@ -96,15 +96,14 @@ iframe {
     padding-bottom:5px;
 }
 
-#other-container {
-    height:650px;
-    margin-left:34%;
-}
-
 #oo-title {
     margin-left:41%;
 }
 
 #misc-title {
     margin-left:46%;
+}
+
+#other-container {
+    height:500px;
 }
