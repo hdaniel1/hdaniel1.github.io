@@ -2,6 +2,9 @@
     background-color:#268263;
 }
 
+.nav-item {
+    text-align:center;
+}
 body {
     /* background-image:url("./Images/portfolio-pic.jpg");
     background-size: cover;
@@ -82,7 +85,8 @@ form {
 
 textarea {
     margin-right:7%;
-    border-radius:2%
+    border-radius:2%;
+    width:100%;
 }
 
 #form-message {
