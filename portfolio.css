@@ -2,6 +2,10 @@
     background-color:#268263;
 }
 
+.nav-item {
+    text-align:center;
+}
+
 body {
     background-color:#ccc;
     font-family: 'Didact Gothic', sans-serif;
